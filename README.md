@@ -62,3 +62,9 @@ For crash reports or feature proposals, please submit reproducible logs in the *
 ## License
 
 © 2026 officialtechrom. Maintained for personal application engineering. All rights reserved.
+
+## v2.1.0 - Final UI & UX Improvements
+- **Features:** Fully functional Search Screen, Pull-down to dismiss MiniPlayer.
+- **Fixes:** Fixed background notifications bug, removed duplicate Developer option, restored Material 3 smooth SeekBar.
+- **Refinement:** UI and animation improvements.
+
