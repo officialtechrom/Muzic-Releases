@@ -1,70 +1,70 @@
-<div align="center">
+# VYN PLAYER Releases
 
-# Muzic
-### Local Audio Architecture
+Welcome to the official release repository for **VYN PLAYER** — a modern offline music player for Android focused on clean UI, smooth playback, local library management, and a privacy-friendly listening experience.
 
-[![Latest Release](https://img.shields.io/github/v/release/officialtechrom/Muzic-Releases?style=for-the-badge&color=7C4DFF&label=Latest%20Release)](https://github.com/officialtechrom/Muzic-Releases/releases/latest)
-[![Android](https://img.shields.io/badge/Android-10%2B-brightgreen?style=for-the-badge&logo=android)](https://github.com/officialtechrom/Muzic-Releases/releases/latest)
+> **Note:** This repository is for release distribution and user-facing updates only. Source code is maintained separately.
 
-</div>
+## What Users Get
 
-## Download
+VYN PLAYER is built for people who want a polished local music player without clutter.
 
-**[Download the latest release APK here](https://github.com/officialtechrom/Muzic-Releases/releases/latest)**
+### Main Features
+- Offline music playback from local device storage
+- Clean and modern Android user interface
+- Smooth queue handling and playback controls
+- Shuffle and repeat support
+- Favorites and playlist support
+- Mini player and full now-playing screen
+- Local library browsing for your music collection
+- Notification, lock screen, Bluetooth, and headset controls
+- Privacy-focused experience with no required account or streaming dependency
 
-For an archive of all versions, view the **[Releases](https://github.com/officialtechrom/Muzic-Releases/releases)** page.
+## Why VYN PLAYER?
 
-## System Capabilities
+- **Local-first experience** — your music stays on your device
+- **Fast and simple** — open the app and start listening quickly
+- **Modern design** — smooth and updated Android UI experience
+- **User-focused updates** — practical improvements aimed at real daily use
 
-| Capability | Technical Details |
-|---------|-------------|
-| **Offline Architecture** | Operates fundamentally without network requests or API dependencies. |
-| **Clean Distribution** | No advertisement SDKs, telemetry, or third-party wrappers injected. |
-| **Format Support** | Lossless (FLAC, WAV, ALAC) & Lossy (OPUS, OGG, AAC, MP3) audio decoding via ExoPlayer. |
-| **Material Theming** | AMOLED-optimized dark contrast rendering engineered with Jetpack Compose. |
-| **Library Indexing** | Local asynchronous MediaStore parsing (Songs, Albums, Artists, Playlists). |
-| **Persistent Playback** | Global MiniPlayer state maintained across UI components via Kotlin Flow. |
-| **State Management** | Room database persistence for Playlists and Favorites indexing. |
-| **MediaSession Integration** | Hardware Bluetooth event parsing, lock screen, and system notification controls. |
+## Future Updates
 
-## Requirements
+VYN PLAYER will continue to improve over time. Planned and future areas include:
 
-- Android Minimum: API Level 29 (Android 10)
-- Architecture Support: ARM64-v8a / ARMEABI-v7a
-- Storage Authorization: `READ_MEDIA_AUDIO` / `READ_EXTERNAL_STORAGE`
+- Better library management improvements
+- More playback customization options
+- Audio enhancement features
+- Additional UI and UX refinements
+- Performance optimization and stability improvements
+- Smarter music discovery and listening tools
 
-## Installation Context
+## Releases
 
-1. Acquire the `.apk` from the **[Releases](https://github.com/officialtechrom/Muzic-Releases/releases/latest)** output stream.
-2. Execute the file via the Android package manager.
-3. If necessary, approve the "Install from Unknown Sources" security constraint in settings.
-4. On initialization, grant local storage permission when the system dialogue prompts.
+This repository is dedicated to APK releases for VYN PLAYER.
 
-## Development Roadmap
+- Stable APK builds will be published in the **Releases** section when they are ready.
+- As requested, no new release content is being added right now until the app is fully stable.
 
-- [x] v1.0.0 — Core engine initialization, MediaStore mapping, base UI components.
-- [x] v2.0.0 — Compose UI paradigm shift, Bottom navigation architecture, persistent state.
-- [ ] v2.1.0 — Direct system audio hooks (10-band Equalizer, Bass Boost algorithms).
-- [ ] v2.2.0 — Relational smart playlist generation based on playback metrics.
+## Installation
 
-## Privacy & Telemetry Statement
+1. Download the latest APK from the **Releases** page when a stable build is published.
+2. Install the APK on your Android device.
+3. Allow installation from unknown sources if Android requests permission.
+4. Open the app and grant media access to load your local music library.
 
-Muzic enforces strict local-only data policies at the manifest level:
+## Important Note
 
-- **Network Interface Disabled:** The `INTERNET` permission is omitted from the Android Manifest. The binary physically cannot transmit data.
-- **Analyzation Tools Removed:** No logging libraries, crash reporters (e.g., Firebase, Sentry), or metric trackers are bundled.
-- **Local Sandbox:** All indexing databases reside strictly in the app's local user-secured storage sandbox.
+Please use release builds only when they are officially published here. This helps ensure better stability and a cleaner user experience.
 
-## Issue Tracking
+## Source Code
 
-For crash reports or feature proposals, please submit reproducible logs in the **[Issues](https://github.com/officialtechrom/Muzic-Releases/issues)** section.
+The main source code is maintained separately in the development repository.
 
-## License
+## Feedback
 
-© 2026 officialtechrom. Maintained for personal application engineering. All rights reserved.
+If you find issues or want to suggest improvements, you can share feedback through the repository issues section when needed.
 
-## v2.1.0 - Final UI & UX Improvements
-- **Features:** Fully functional Search Screen, Pull-down to dismiss MiniPlayer.
-- **Fixes:** Fixed background notifications bug, removed duplicate Developer option, restored Material 3 smooth SeekBar.
-- **Refinement:** UI and animation improvements.
+## Status
 
+This release repository has been prepared professionally for public-facing updates.
+
+**New APK releases will be added here only when the app is stable.**
